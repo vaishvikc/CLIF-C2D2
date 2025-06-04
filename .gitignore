@@ -2,4 +2,4 @@
 *.parquet
 *.csv
 *.log
-config.json
+config/config.json

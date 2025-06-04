@@ -8,7 +8,7 @@ This repository provides a comprehensive workflow and codebase to seamlessly con
 | ------------------------------ | -------------------------------------------------------------------------------------------- | --------------------- | ------------------------------------ |
 | Outcomes & Hospital Course     | [`etl/01_c2d2_cohort_built.ipynb`](etl/01_c2d2_cohort_built.ipynb)                           | 🟢 Beta               | Proof of Concept completed           |
 | Advanced Directives            | [`etl/02_advanced_directives.ipynb`](etl/02_advanced_directives.ipynb)                       | 🚧 Under Construction | Awaiting CLIF 2.2 release            |
-| Anthropometrics & Demographics | [`etl/03_anthropometrics_n_demographics.ipynb`](etl/03_anthropometrics_n_demographics.ipynb) | 🟢 Beta               | Partial C2D2 elements in cohort data |
+| Anthropometrics & Demographics | [`etl/03_anthropometrics_n_demographics.ipynb`](etl/03_anthropometrics_n_demographics.ipynb) | 🚧 Under Construction | Partial C2D2 elements in cohort data |
 | Chronic Comorbid Illness       | [`etl/04_chronic_comorbid_illness.ipynb`](etl/04_chronic_comorbid_illness.ipynb)             | 🚧 Under Construction | Awaiting CLIF 2.2 release            |
 | Diagnoses                      | [`etl/05_diagnoses.ipynb`](etl/05_diagnoses.ipynb)                                           | 🚧 Under Construction | Awaiting CLIF 2.2 release            |
 | Diagnostic Tests               | [`etl/06_diagnostic_tests.ipynb`](etl/06_diagnostic_tests.ipynb)                             | 🟢 Beta               | Proof of Concept completed           |
