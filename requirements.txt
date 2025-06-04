@@ -1,5 +1,6 @@
 annotated-types==0.7.0
 openpyxl
+tableone
 appnope==0.1.4
 asttokens==3.0.0
 comm==0.2.2

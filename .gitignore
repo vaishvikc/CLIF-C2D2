@@ -1,1 +1,5 @@
 .clif_c2d2
+*.parquet
+*.csv
+*.log
+config.json
