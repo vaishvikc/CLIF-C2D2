@@ -4,17 +4,17 @@ This repository provides a comprehensive workflow and codebase to seamlessly con
 
 ## 🛠 Project Status
 
-| Domain                         | ETL Notebook                                     | Maturity Status       | Remarks                              |
-| ------------------------------ | ------------------------------------------------ | --------------------- | ------------------------------------ |
-| Outcomes & Hospital Course     | \[`etl/01_c2d2_cohort_built.ipynb`]              | 🟢 Beta               | Proof of Concept completed           |
-| Advanced Directives            | \[`etl/02_advanced_directives.ipynb`]            | 🚧 Under Construction | Awaiting CLIF 2.2 release            |
-| Anthropometrics & Demographics | \[`etl/03_anthropometrics_n_demographics.ipynb`] | 🟢 Beta               | Partial C2D2 elements in cohort data |
-| Chronic Comorbid Illness       | \[`etl/04_chronic_comorbid_illness.ipynb`]       | 🚧 Under Construction | Awaiting CLIF 2.2 release            |
-| Diagnoses                      | \[`etl/05_diagnoses.ipynb`]                      | 🚧 Under Construction | Awaiting CLIF 2.2 release            |
-| Diagnostic Tests               | \[`etl/06_diagnostic_tests.ipynb`]               | 🟢 Beta               | Proof of Concept completed           |
-| Interventions                  | \[`etl/07_interventions.ipynb`]                  | 🟢 Beta               | Proof of Concept completed           |
-| Medications                    | \[`etl/08_medications.ipynb`]                    | 🟢 Beta               | Proof of Concept completed           |
-| Objective Assessments          | \[`etl/09_objective_assessments.ipynb`]          | 🟢 Beta               | Proof of Concept completed           |
+| Domain                         | ETL Notebook                                                                                 | Maturity Status       | Remarks                              |
+| ------------------------------ | -------------------------------------------------------------------------------------------- | --------------------- | ------------------------------------ |
+| Outcomes & Hospital Course     | [`etl/01_c2d2_cohort_built.ipynb`](etl/01_c2d2_cohort_built.ipynb)                           | 🟢 Beta               | Proof of Concept completed           |
+| Advanced Directives            | [`etl/02_advanced_directives.ipynb`](etl/02_advanced_directives.ipynb)                       | 🚧 Under Construction | Awaiting CLIF 2.2 release            |
+| Anthropometrics & Demographics | [`etl/03_anthropometrics_n_demographics.ipynb`](etl/03_anthropometrics_n_demographics.ipynb) | 🟢 Beta               | Partial C2D2 elements in cohort data |
+| Chronic Comorbid Illness       | [`etl/04_chronic_comorbid_illness.ipynb`](etl/04_chronic_comorbid_illness.ipynb)             | 🚧 Under Construction | Awaiting CLIF 2.2 release            |
+| Diagnoses                      | [`etl/05_diagnoses.ipynb`](etl/05_diagnoses.ipynb)                                           | 🚧 Under Construction | Awaiting CLIF 2.2 release            |
+| Diagnostic Tests               | [`etl/06_diagnostic_tests.ipynb`](etl/06_diagnostic_tests.ipynb)                             | 🟢 Beta               | Proof of Concept completed           |
+| Interventions                  | [`etl/07_interventions.ipynb`](etl/07_interventions.ipynb)                                   | 🟢 Beta               | Proof of Concept completed           |
+| Medications                    | [`etl/08_medications.ipynb`](etl/08_medications.ipynb)                                       | 🟢 Beta               | Proof of Concept completed           |
+| Objective Assessments          | [`etl/09_objective_assessments.ipynb`](etl/09_objective_assessments.ipynb)                   | 🟢 Beta               | Proof of Concept completed           |
 
 Each notebook generates domain-specific tables located at `../final/output/*.parquet`.
 
@@ -74,10 +74,10 @@ Navigate to the `clif-c2d2` directory and execute:
 
 ```bash
 # For Windows
-  run_c2d2_etl.bat
+./run_c2d2_etl.bat
 
 # For Linux/Mac
-  ./run_c2d2_etl.sh
+./run_c2d2_etl.sh
 ```
 
 The output will generate Proof of Concept tables from the CLIF-C2D2 transformation pipeline.
